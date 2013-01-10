@@ -1,0 +1,20 @@
+{
+    "name": "appd",
+    "version": "0.1.0",
+    "description": "appd - systemd for your apps",
+    "homepage": "https://github.com/nailgun/appd",
+    "author": {
+        "name": "Dmitry Bashkatov",
+        "email": "dbashkatov@gmail.com"
+    },
+    "bin": "./index.js",
+    "preferGlobal": true,
+    "description": "",
+    "license": "BSD",
+    "engines": {
+        "node": "0.8.x"
+    },
+    "dependencies": {
+        "commander": "1.x"
+    }
+}
