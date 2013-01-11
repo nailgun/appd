@@ -49,9 +49,7 @@ function watchFile (filepath, cb) {
     fs.exists(filepath, function (exists) {
         if (!exists) {
             fs.writeFile(filepath, new Buffer(0), function (err) {
-                console.log('1');
                 if (err) return cb(err); // TODO
-                console.log('2');
                 start();
             });
         } else {

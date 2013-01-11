@@ -1,6 +1,6 @@
 {
     "name": "appd",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "appd - systemd for your apps",
     "homepage": "https://github.com/nailgun/appd",
     "author": {
